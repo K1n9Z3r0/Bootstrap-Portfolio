@@ -10,7 +10,6 @@ body {
 
 .container {
     margin-top: 10px;
-    width: 960px;
 }
 
 
@@ -45,7 +44,7 @@ input[type=text], select, textarea {
                   resize: vertical;
   }
   
-  /* Style the submit button with a specific background color etc */
+
   input[type=submit] {
     background-color: #006699;
     color: white;
@@ -55,12 +54,12 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
+
   input[type=submit]:hover {
     background-color: #004488;
   }
   
-  /* Add a background color and some padding around the form */
+
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -79,6 +78,7 @@ input[type=text], select, textarea {
     bottom: 0;
     width: 100%;
     background-color: #666666;
+    border-top: 5px solid #006699;
     color: white;
     text-align: center;
   }
